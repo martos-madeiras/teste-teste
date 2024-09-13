@@ -104,7 +104,7 @@ def analyze_data(dados_lidos, key_suffix):
     else:
         data_analise_str = 'Data não disponível'
     
-    cor_texto = "rgb(255, 75, 58)"
+    cor_texto = "rgb(194, 97, 30)"
     st.markdown(f'**Periodo da análise**: <span style="color:{cor_texto}; font-weight:bold;">{data_analise_str}</span>', unsafe_allow_html=True)
     st.markdown(f'**Quantidade Produzida**: <span style="color:{cor_texto}; font-weight:bold;">{total_ntronco}</span>', unsafe_allow_html=True)
     st.markdown(f'**Tempo total de trabalho**: <span style="color:{cor_texto}; font-weight:bold;">{total_nhoras}h:{total_nminutos}min:{total_nsegundos}seg</span>', unsafe_allow_html=True)
