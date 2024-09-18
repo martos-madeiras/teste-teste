@@ -22,7 +22,7 @@ page_bg_img = '''
     padding: 20px; 
     border-radius: 10px;
     margin: 0 auto;
-    max-width: 80%; 
+    max-width: 50%; 
 }
 
 body {
