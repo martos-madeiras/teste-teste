@@ -111,18 +111,18 @@ def analyze_data(dados_lidos, key_suffix):
     st.markdown(f'**Quantidade por minuto**: <span style="color:{cor_texto}; font-weight:bold;">{quantidade_min:.2f} troncos/minuto</span>', unsafe_allow_html=True)
    
     box_descriptions = {
-        1: "2200M",
+        1: "2200 M",
         2: "metal",
-        3: "2200G",
-        4: "2200F",
-        5: "2500M",
-        6: "2500F",
-        7: "2500G",
+        3: "2200 G",
+        4: "2200 F",
+        5: "2500 M",
+        6: "2500 F",
+        7: "2500 G",
         8: "2650",
-        9: "2800G",
-        10: "2800F/M",
-        11: "3100G",
-        12: "3100F/M",
+        9: "2800 G",
+        10: "2800 F/M",
+        11: "3100 G",
+        12: "3100 F/M",
         13: "Outros",
     }
     contagem = df['Box'].value_counts().sort_index()
