@@ -12,7 +12,7 @@ page_bg_img = '''
 .stApp {
     background-image: url("https://i.imgur.com/aCy6SYL.jpeg");
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
     padding: 0;
     margin: 0;
 }
