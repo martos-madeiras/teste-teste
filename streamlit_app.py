@@ -87,7 +87,7 @@ def analyze_data(dados_lidos, key_suffix):
 
     lst_horas = pd.to_datetime(df['Hora'], format='%H:%M:%S')
 
-    total_nsegundos = (lst_horas[total_ntronco] - lst_horas[1]).total_seconds()
+    total_nsegundos = (lst_horas[total_ntronco] - lst_horas[1]).total_seconds()-3600
     total_nhoras, remainder = divmod(total_nsegundos, 3600)
     total_nminutos, total_nsegundos = divmod(remainder, 60)
 
